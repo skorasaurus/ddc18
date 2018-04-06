@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Big</title>
+  <title>Tools for Map-making </title>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
   <link href='lib/big.css' rel='stylesheet' type='text/css' />
@@ -14,14 +14,9 @@
   <script>hljs.initHighlightingOnLoad();</script>
   <script src='lib/big.js'></script>
 </head>
-<body class='light'>
-<div>use &harr; to navigate</div>
-<div>
-    Big
-    <notes>Speakers notes!</notes>
-    <notes>Even more than one.</notes>
-</div>
-<div> Hi. I'm will. <a href='https://twitter.com/skorasaurus'>@opencleveland</a></div>
+<body class='dark'>
+<div> Hi. I'm will. 
+<a href='http://skorasaur.us'>skorasaur.us</a></div>
 
 <div class='center'><em>Open Cleveland</em></div>
 
@@ -30,33 +25,56 @@
     Ceci n'est pas une carte.  
 </div>
 
+<div> All maps lie. </div>
+
+<div> Warning: this presentation contains live demonstrations, possibly bad data and spurrious projections </div>
+<div data-background-image='Selection_050.png'></div>
+
 <div data-background-image='walid.jpg'></div>
 
-<div> CSV: The Swiss ARMY KNIFE </div>
+<div>Cleaning your data is dirty work</div>
 
-<div> Clean your data </div>
+<div data-bodyclass='special-code'><pre><code>csvstack 01.csv 02.csv 03.csv 04.csv > all.csv</code></pre> 
 
-<div><pre><code>// NOT just coders
-var code = true;
-function javascript() {
-  return probably;
-}</code></pre></div>
+<pre><pre><code>csvgrep -c 4 -r "Residential" redfined2.csv > onlyresidential.csv</code></pre></div>
 
-<div data-background-image='selection_023.png'></div>
-
-<div data-background-image='selection_026.png'></div>
+<div data-background-image='Selection_034.png'></div>
+<div data-background-image='Selection_035.png'></div>
 
 
-<div data-background-image='poor-original-choropleth.png'></div>
+<div data-background-image='Selection_050-null-values.png'></div>
+
+<div> <pre> <code> cut -d"," -f6 onlyresidential.csv | sort | uniq -c </code> </pre>
+</div>
 
 
-<div>as <em>big</em> as it can be</div>
-<div>with <div style='font-style:italic;background:#fff;'>normal HTML</div></div>
-<div data-time-to-next='3'>and now it's perfect for ignite talks (wait 3 seconds)</div>
-<div>no config</div>
-<div><em>1.5k</em></div>
-<div data-bodyclass='light-text' data-background-image='http://farm3.static.flickr.com/2506/5757000880_509440308e_z.jpg'>images too</div>
-<div data-bodyclass='new-shiny'>per slide body classes</div>
-<div>JS+CSS <a href='https://github.com/tmcw/big'>github.com/ tmcw/ big</a></div>
+<div data-background-image='selection_036.png'></div>
+
+<div> colorbrewer </div>
+
+<div data-background-image='Selection_040.png'></div>
+
+<div data-background-image='Selection_044.png'></div>
+
+
+<div> mapbox </div>
+
+<div data-background-image='Selection_028.png'></div>
+
+<div data-background-image='Selection_029.png'></div>
+
+<div data-background-image='Selection_047.png'></div>
+
+<div> geojson.io </div>
+
+<div>mapshaper </div>
+
+<div>web-map-maker </div>
+
+<div data-background-image='everyone-is-winging-it.png'></div>
+
+<div> https://youtu.be/R2_Mn-qRKjA?t=19 </div>
+
+<div>presentation done in: <a href='https://github.com/tmcw/big'>github.com/ tmcw/ big</a></div>
 </body>
 </html>

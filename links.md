@@ -1,5 +1,8 @@
-awesome, giant list of links:
+Tools for map-making 
+Data Days CLE - April 6, 2018
+compiled by Will Skora
 
+links and slides 
 viewable at https://github.com/skorasaurus/ddc18
 
 [mapmakers-cheatsheet](https://github.com/tmcw/mapmakers-cheatsheet) - 
@@ -25,10 +28,12 @@ Quicker and simpler web map templates:
 [umap](http://umap.openstreetmap.fr/en/) - If you want a map to share with others with some custom icons quickly and aren't picky about the basemap; can embed as well.
 
 data manipulation/gis in browser: 
-[mapshaper](http://mapshaper.org) - relatively simple yet powerful, also has command-line based tool
-[dropchop](http://dropchop.io/) - do some common GIS operations within the browser javascript
-[turf.js](http://turfjs.org) - do some common GIS operations within the browser (javascript)
 
+[mapshaper](http://mapshaper.org) - relatively simple yet powerful, also has command-line based tool
+
+[dropchop](http://dropchop.io/) - do some common GIS operations within the browser javascript
+
+[turf.js](http://turfjs.org) - do some common GIS operations within the browser (javascript)
 
 utilities for printing web maps: 
 
@@ -60,12 +65,18 @@ Meta (a list of other lists):
 
 Advanced: 
 
+[csvkit](https://github.com/wireservice/csvkit) - python library and command line to 
+manipulate CSV
+
+[qgis](http://qgis.org) - geospatial analysis, map-making; comparable to ArcGIS. 
+
 [cheat-sheet for fiona and rasterio](https://github.com/sgillies/frs-cheat-sheet) -
 Cheatsheet for using python libraries of fiona, rasterio, manipulating geospatial data. 
 
 [miller](https://github.com/johnkerl/miller) - command-line based; very powerful and advanced; specifically for parsing CSV files.
 
-[GDAL cheatsheet](https://github.com/dwtkns/gdal-cheat-sheet) - GDAL is a geospatial library at the core of many geospatial applications; 
+[GDAL cheatsheet](https://github.com/dwtkns/gdal-cheat-sheet) - GDAL is a geospatial library at the core of many geospatial applications; data conversion; reprojection; 
+analysis, and more. 
 Cheatsheet for using some of its command-line based tools. 
 
 [d3](http://d3js.org) - extremely powerful javascript library for dataviz and maps
@@ -93,14 +104,3 @@ Interactive Data Visualization for the Web: An Introduction to Designing with D3
 GIS Cartography - Gretchen Peterson
 Great design influence for making print and web-maps. 
 
-
-Design/breaks:
-http://bl.ocks.org/HarryStevens/69da410602d8ca6b9f41f72024dba791
-
-https://schoolofdata.org/
-
-
-
-
-attributions for images: 
-https://www.flickr.com/photos/mahfoudh/37519121762/
