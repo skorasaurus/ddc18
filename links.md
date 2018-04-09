@@ -1,4 +1,3 @@
-
 I gave a workshop/presentation on tools for map-making at [Data Days CLE](http://datadayscle.org)
 on Friday. One of my favorite moments was the city employee who asked me about alternatives to 
 ARCGIS/ESRI and specifically being able to offer read access to geodatabases to other departments of data without using ESRI (hope I remember that correctly).
@@ -10,7 +9,7 @@ focusing on web maps (maps that are viewable online) outside of the ESRI ecosyst
 
 [mapschool](http://mapschool.io/) - As brief as it is, it's an extremely useful overview of modern maps and some theory. I don't know of any other document on maps that is as short yet as informative. 
 
-mapmaking suites (SAAS, software as a service):
+**mapmaking suites (SAAS, software as a service):**
 
 [carto](https://carto.com)
 
@@ -18,7 +17,7 @@ mapmaking suites (SAAS, software as a service):
 
 [shinyapps](www.shinyapps.io) - R-based
 
-Quicker and simpler web map templates: 
+**Quicker and simpler web map templates:**
 
 All of these simpler web map templates require a relatively minimal amount of data (not a very rigid rule, but I'd say less than a couple hundred points/features and that you don't have a lot of properties on them). If you have more than this, you'll need to upload them to one of the above services.
 
@@ -30,7 +29,7 @@ All of these simpler web map templates require a relatively minimal amount of da
 
 [umap](http://umap.openstreetmap.fr/en/) - If you want a map to share with others with some custom icons quickly and aren't picky about the basemap; can embed as well.
 
-data manipulation/gis in browser: 
+**data manipulation/gis in browser:** 
 
 As above, these may not work (or will work very slowly) if you're using files that have hundreds of features or are above, say 10mb, in size.
 
@@ -42,22 +41,23 @@ As above, these may not work (or will work very slowly) if you're using files th
 
 [turf.js](http://turfjs.org) - do some common GIS operations within the browser (javascript)
 
-utilities for printing web maps: 
+**utilities for printing web maps:**
 
 [portmap](https://github.com/portofportlandgis/portmap) -
 
-[staticmapmaker.com]
+[staticmapmaker.com](staticmapmaker.com) - limited options; but usable
 
 [LA Times' Web Map Maker](http://datadesk.github.io/web-map-maker/)
 
 [Petroff's Print Maps](https://printmaps.mpetroff.net/)
-https://www.mapbox.com/help/static-api-playground/
 
-geocoding: 
+[https://www.mapbox.com/help/static-api-playground/]([https://www.mapbox.com/help/static-api-playground/])
+
+**geocoding:** 
 
 [smartstreets](https://smartystreet.com) Not free; but does a relatively great job and has relatively easy to use interface; good if you're on a timecrunch and/or limited skills.
 
-Meta (a list of other lists): 
+**Meta (a list of other lists):**  
 
 [robin's list](https://github.com/tolomaps/resources)
 
@@ -69,13 +69,13 @@ Meta (a list of other lists):
 
 [dataviz-tools' list](http://dataviz.tools/category/mapping/) - thorough list, somewhat out of date
 
-theory: 
+**theory:**
 
 [maptime](http://maptime.io) - An informal association of meetup groups that teach geospatial concepts and maps. They have accessible tutorials. I co-organized Cleveland's maptime from 2012-2014ish. 
 
 [mapmakers-cheatsheet](https://github.com/tmcw/mapmakers-cheatsheet) 
 
-Advanced: 
+**Advanced:**
 
 [csvkit](https://github.com/wireservice/csvkit) - python library and command line to 
 manipulate CSV files
@@ -95,13 +95,13 @@ Cheatsheet for using some of its command-line based tools.
 
 [observable HQ](https://beta.observablehq.com/) - a sandbox for experimenting with javascript and D3
 
-Sites/Articles mentioned in talk: 
+**Sites/Articles mentioned in talk:** 
 
 [Most famous set in every US state](http://www.businessinsider.com/most-famous-book-set-in-every-state-map-2013-10)
 
 [when it shouldn't be a map](http://www.ericson.net/content/2011/10/when-maps-shouldnt-be-maps/)
 
-data sources: 
+**data sources:**
 [Guide to Cleveland Data sources](http://www.opencleveland.org/blog/guide-to-cleveland-data/) - A list of places to get available open civic data for the Cleveland area
 
 
@@ -109,9 +109,10 @@ If you want to start with the command line:
 https://github.com/jlevy/the-art-of-command-line
 
 
-Highly recommended Books: 
+**Highly recommended Books:** 
 Interactive Data Visualization for the Web: An Introduction to Designing with D3 (2nd Edition) - Scott Murray - clearly written with examples; good not just for D3 as a refresher or extremely concise overview of html, css, and javascript. 
 
 GIS Cartography - Gretchen Peterson
 Great design influence for making print and web-maps. 
 
+cat photo by [Walid Mahfoudh](https://www.flickr.com/photos/mahfoudh/37519121762/)
