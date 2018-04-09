@@ -3,7 +3,7 @@ I gave a workshop/presentation on tools for map-making at [Data Days CLE](http:/
 on Friday. One of my favorite moments was the city employee who asked me about alternatives to 
 ARCGIS/ESRI and specifically being able to offer read access to geodatabases to other departments of data without using ESRI (hope I remember that correctly).
 
-My slides are at [http://skorasaur.us/ddc18](http://skorasaur.us/ddc18) and below is a long list of resources, most of which I mentioned in my talk. This list is also available in my github repository for this - https://github.com/skorasaurus/ddc18
+My slides are at [http://skorasaur.us/ddc18](http://skorasaur.us/ddc18) and below is a long list of resources, most of which I mentioned in my talk. This list is also available in my github repository for this - [https://github.com/skorasaurus/ddc18](https://github.com/skorasaurus/ddc18)
 
 This list is by no means, comprehensive, but a starting point for tools for map-making, primarily 
 focusing on web maps (maps that are viewable online) outside of the ESRI ecosystem. 
